@@ -1,0 +1,84 @@
+{
+    "name": "My Application",
+	"width": 412,
+    "widgets": [
+        {
+            "type": "Separator",
+			"id": "01",
+            "label": "Widgets",
+            "description": "This is a ungrouped button.",
+            "tooltip": "This is the tooltip you get when you hover over this widget"
+        },
+        {
+            "type": "BigGridGroup",
+			"id": "02",
+            "collapsed": "true",
+            "label": "Buttons Group",
+            "children": [
+                {
+                    "type": "Button",
+					"id": "03",
+                    "label": "Button 1"
+                },
+                {
+                    "type": "Button",
+					"id": "04",
+                    "label": "Button 2"
+                }
+            ]
+        },
+        {
+            "type": "SmallGridGroup",
+			"id": "05",
+			"collapsed": "false",
+            "label": "Small Items Group",
+            "children": [
+                {
+                    "type": "Readout",
+					"id": "06",
+					"unit": "Apples",
+					"color": "#991122",
+                    "label": "Readout 1"
+                },
+                {
+                    "type": "Readout",
+					"id": "07",
+					"unit": "Pears",
+					"color": "#339933",
+                    "label": "Readout 2"
+                }
+            ]
+        },
+		{
+            "type": "ListGroup",
+			"id": "08",
+			"collapsed": "true",
+            "label": "List Items Group",
+            "children": [
+                {
+                    "type": "Field",
+					"id": "09",
+					"unit": "Apples",
+                    "label": "Field 1"
+                },
+                {
+                    "type": "RangeSlider",
+					"id": "10",
+					"label": "Slider 1",
+					"minValue": "4",
+					"maxValue": "8",
+                    "min": "0",
+					"max": "10"
+                },
+				{
+                    "type": "Slider",
+					"id": "11",
+					"label": "Slider 2",
+					"min": "0",
+					"max": "80",
+                    "value": "70"
+                }
+            ]
+        }
+    ]
+}

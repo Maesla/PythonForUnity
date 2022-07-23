@@ -1,0 +1,115 @@
+{
+	"width": 412,
+	"theme":{
+            "primary": "#25252B",
+			"secondary": "#FFFFFF"
+    },
+    "widgets": [
+        {
+            "type": "Image",
+			"id": "01",
+            "title": "Image",
+			"height": "350"
+        },
+        {
+            "type": "BigGridGroup",
+			"id": "02",
+            "collapsed": "true",
+            "title": "Big Buttons Group",
+            "children": [
+                {
+                    "type": "Button",
+					"id": "03",
+                    "title": "Big Button 1"
+                },
+                {
+                    "type": "Button",
+					"id": "04",
+                    "title": "Big Button 2"
+                }
+            ]
+        },
+        {
+            "type": "SmallGridGroup",
+			"id": "05",
+			"collapsed": "false",
+            "title": "Small Buttons Group",
+            "children": [
+                {
+                    "type": "Button",
+					"id": "06",
+                    "title": "Small Button 1"
+                },
+                {
+                    "type": "Button",
+					"id": "07",
+                    "title": "Small Button 2"
+                }
+            ]
+        },
+        {
+            "type": "ListGroup",
+            "id": "08",
+            "collapsed": "true",
+            "title": "List Items Group",
+            "children": [
+                {
+                    "type": "Readout",
+                    "id": "09",
+                    "unit": "Apples",
+                    "color": "#991122",
+                    "title": "Readout 1"
+                },
+                {
+                    "type": "Readout",
+                    "id": "10",
+                    "unit": "Pears",
+                    "color": "#339933",
+                    "title": "Readout 2"
+                },
+                {
+                    "type": "Field",
+                    "id": "11",
+                    "unit": "Meters",
+                    "title": "Field 1",
+                    "required": "false",
+					"decimals": "2"
+                },
+                {
+                    "type": "RangeSlider",
+                    "id": "12",
+                    "title": "Slider 1",
+                    "minValue": "4",
+                    "maxValue": "8",
+                    "min": "0",
+                    "max": "10"
+                },
+                {
+                    "type": "Slider",
+                    "id": "13",
+                    "title": "Slider 2",
+                    "min": "0",
+                    "max": "80",
+                    "value": "70"
+                }
+            ]
+        },
+        {
+            "type": "ListGroup",
+            "id": "14",
+            "collapsed": "false",
+            "title": "Results",
+            "children": [
+                {
+                    "type": "Field",
+                    "id": "15",
+                    "unit": "Meters",
+                    "title": "Results",
+                    "required": "false",
+					"decimals": "0"
+                }
+            ]
+
+        }
+    ]
+}

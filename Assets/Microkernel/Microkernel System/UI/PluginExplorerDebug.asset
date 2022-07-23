@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c95db0faf5d87544a6fc907f832a865, type: 3}
+  m_Name: PluginExplorerDebug
+  m_EditorClassIdentifier: 
+  plugins:
+  - name: Cube
+    code: 'go = GameObject.CreatePrimitive(PrimitiveType.Cube)
+
+      go.transform.position
+      = Vector3(6.0,0.0,-2.0)'
+  - name: Sphere
+    code: 'go = GameObject.CreatePrimitive(PrimitiveType.Sphere)
+
+      go.transform.position
+      = Vector3(8.0,0.0,-2.0)'
+  - name: Sin
+    code: "# Import math Library\r\nimport math\r\nimport numpy as np\nfor i in np.arange(0,
+      2*math.pi, 0.5):\r\n\tgo = GameObject.CreatePrimitive(PrimitiveType.Sphere)\n\toffset
+      = math.sin(i)\n\tgo.transform.position = Vector3(4.0+i,offset,-2.0)\n\tprint(i)"

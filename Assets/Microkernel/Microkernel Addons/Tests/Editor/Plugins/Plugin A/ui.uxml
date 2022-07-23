@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="height: 100%; width: 30%; left: 70%; flex-direction: column; background-color: rgb(39, 109, 164); top: 0; align-items: stretch;">
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" name="text-field-1" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" name="text-field-2" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" name="text-field-3" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" name="text-field-4" />
+        <ui:VisualElement name="img" style="background-color: rgb(173, 127, 71); height: 240px; background-image: none;" />
+    </ui:VisualElement>
+</ui:UXML>

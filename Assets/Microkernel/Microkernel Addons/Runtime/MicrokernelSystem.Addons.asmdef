@@ -1,0 +1,19 @@
+{
+    "name": "MicrokernelSystem.Addons",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7c83e85a192495b40a0501c36c837e06",
+        "GUID:ef41fb3ebb54cfe4db3a2d0300269cc5",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:be3f6a7eac850424b93d579f30e7b673"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
